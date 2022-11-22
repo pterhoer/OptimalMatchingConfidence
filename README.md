@@ -40,9 +40,21 @@ In contrast to previous works, the proposed PIC score unifies several beneficial
 
 ## Results
 
-Face image quality assessment results are shown below on LFW (left) and Adience (right). SER-FIQ (same model) is based on ArcFace and shown in red. The plots show the FNMR at ![\Large 10^{-3}](https://latex.codecogs.com/gif.latex?\inline&space;10^{-3}) FMR as recommended by the [best practice guidelines](https://op.europa.eu/en/publication-detail/-/publication/e81d082d-20a8-11e6-86d0-01aa75ed71a1) of the European Border Guard Agency Frontex. For more details and results, please take a look at the paper.
+**Confidence Calibration Curves (CCC)** - The CCC for FaceNet on all datasets are shown. While most approaches have to deal with high under-
+and over-confident predictions, the proposed PIC produces close-to-ideal (black line) probabilistic confidence estimates in most cases.
 
-<img src="FQA-Results/001FMR_lfw_arcface.png" width="430" >  <img src="FQA-Results/001FMR_adience_arcface.png" width="430" >
+<img src="CCC.png" width="900" >
+
+**Confidence Calibration Analysis** - The Expected Calibration Error (ECE) and Maximum Calibration Error (MCE) are shown for several dataset and FRS combinations at an FMR of 10^−3. ECE shows the average confidence calibration error, while the MCE presents the maximum calibration error. The best performance is marked in bold. Except for one case, the proposed PIC approach strongly outperforms the other confidence estimators in terms of
+interpretability. This holds for the average performance, as well as for the worst-case scenario.
+
+<img src="CCA.png" width="900" >
+
+**Multi-Biometric PIC score recognition performance** - The recognition performance of using a joint PIC score by combining a probe sample with 1/2/5 reference samples (RS) is shown for all database and FRS combinations. Generally, the joint PIC score leads to lower recognition errors at 10^−3 FMR than in the single-biometric scenario.
+
+**Multi-Biometric Confidence Calibration Analysis** - The expected calibration errors (ECE) are shown for a joint PIC score confidence by combining a probe sample with 1/2/5 reference samples (RS). This was done for all database and FRS combinations at an FMR of 10−3. The ECE significantly decreases when more reference samples are used. Consequently, also the probabilistic confidence interpretation of PIC becomes more accurate when multiple samples are combined.
+
+<img src="Multi-Biometric.png" width="900" >
 
 ## Installation
 
@@ -78,7 +90,4 @@ If you use this code, please cite the following papers.
 }
 ```
 
-
-
-```
 
