@@ -2,6 +2,8 @@
 
 ## PIC-Score: Probabilistic Interpretable Comparison Score for Optimal Matching Confidence in Single- and Multi-Biometric (Face) Recognition
 
+<img src="Visualization_explained.png" width="400" align="right"> 
+
 * [Research Paper](https://arxiv.org/abs/2003.09373) - TODO
 
 ## Table of Contents 
@@ -14,8 +16,6 @@
 
 
 ## Abstract
-
-<img src="Visualization_explained.png" width="400" align="right"> 
 
 In the context of biometrics, matching confidence refers to the confidence that a given matching decision is correct.
 Since many biometric systems operate in critical decision-making processes, such as in forensics investigations, accurately and reliably stating the matching confidence becomes of high importance.
