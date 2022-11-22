@@ -15,7 +15,7 @@
 
 ## Abstract
 
-<img src="CVPR_2020_teaser_1200x1200.gif" width="400" height="400" align="right"> TODO
+<img src="Visualization_explained.png" width="400" align="right"> 
 
 In the context of biometrics, matching confidence refers to the confidence that a given matching decision is correct.
 Since many biometric systems operate in critical decision-making processes, such as in forensics investigations, accurately and reliably stating the matching confidence becomes of high importance.
