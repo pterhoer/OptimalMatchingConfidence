@@ -4,7 +4,7 @@
 
 <img src="Visualization_explained.png" width="400" align="right"> 
 
-* [Research Paper](https://arxiv.org/abs/2003.09373) - TODO
+* [Research Paper](https://arxiv.org/abs/2211.12483)
 
 ## Table of Contents 
 
@@ -65,30 +65,20 @@ TODO
 
 ## Citing
 
-If you use this code, please cite the following papers.
-
-TODO
+If you use this code, please cite the following paper.
 
 ```
-@inproceedings{DBLP:conf/cvpr/TerhorstKDKK20,
-  author    = {Philipp Terh{\"{o}}rst and
-               Jan Niklas Kolf and
-               Naser Damer and
-               Florian Kirchbuchner and
-               Arjan Kuijper},
-  title     = {{SER-FIQ:} Unsupervised Estimation of Face Image Quality Based on
-               Stochastic Embedding Robustness},
-  booktitle = {2020 {IEEE/CVF} Conference on Computer Vision and Pattern Recognition,
-               {CVPR} 2020, Seattle, WA, USA, June 13-19, 2020},
-  pages     = {5650--5659},
-  publisher = {{IEEE}},
-  year      = {2020},
-  url       = {https://doi.org/10.1109/CVPR42600.2020.00569},
-  doi       = {10.1109/CVPR42600.2020.00569},
-  timestamp = {Tue, 11 Aug 2020 16:59:49 +0200},
-  biburl    = {https://dblp.org/rec/conf/cvpr/TerhorstKDKK20.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@misc{https://doi.org/10.48550/arxiv.2211.12483,
+  doi = {10.48550/ARXIV.2211.12483},
+  url = {https://arxiv.org/abs/2211.12483},
+  author = {Neto, Pedro C. and Sequeira, Ana F. and Cardoso, Jaime S. and Terh{\"{o}}rst, Philipp},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {PIC-Score: Probabilistic Interpretable Comparison Score for Optimal Matching Confidence in Single- and Multi-Biometric (Face) Recognition},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
 }
+
 ```
 
 
