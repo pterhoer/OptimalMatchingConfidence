@@ -65,9 +65,22 @@ interpretability. This holds for the average performance, as well as for the wor
 
 ## Installation
 
-TODO
+For the code in this repository to work, the following packages are required: 
+
+- Python 3
+- Numpy
+- Scipy
+
+Given that you have embeddings and a FRS, you can simply add this to your workflow with this minimal installation process. 
 
 
+#### CPU Parallel accelaration
+
+We leverage several cores of the CPU to reduce computation time. You can modify the percentage of available CPU cores to use by changing the following expression: 
+
+    thread_count=int(.8 * mp.cpu_count()))
+    
+, where .8 is the current ratio of (cores to use)/(cores available).
 
 
 ## Citing
