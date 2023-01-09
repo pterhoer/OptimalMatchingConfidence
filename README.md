@@ -1,10 +1,17 @@
 # Optimal Matching Confidence for Biometric Systems
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pic-score-probabilistic-interpretable/face-recognition-on-adience)](https://paperswithcode.com/sota/face-recognition-on-adience?p=pic-score-probabilistic-interpretable)  [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pic-score-probabilistic-interpretable/face-recognition-on-color-feret)](https://paperswithcode.com/sota/face-recognition-on-color-feret?p=pic-score-probabilistic-interpretable)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pic-score-probabilistic-interpretable/face-recognition-on-morph)](https://paperswithcode.com/sota/face-recognition-on-morph?p=pic-score-probabilistic-interpretable)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pic-score-probabilistic-interpretable/face-recognition-on-lfw)](https://paperswithcode.com/sota/face-recognition-on-lfw?p=pic-score-probabilistic-interpretable)
+
 ## PIC-Score: Probabilistic Interpretable Comparison Score for Optimal Matching Confidence in Single- and Multi-Biometric (Face) Recognition
 
 <img src="Visualization_explained.png" width="400" align="right"> 
 
 * [Research Paper](https://arxiv.org/abs/2211.12483)
+
+
+
 
 ## Table of Contents 
 
