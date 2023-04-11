@@ -6,6 +6,8 @@
 
 ## PIC-Score: Probabilistic Interpretable Comparison Score for Optimal Matching Confidence in Single- and Multi-Biometric (Face) Recognition
 
+Accepted at IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023 Workshop on Biometrics 
+
 <img src="Visualization_explained.png" width="400" align="right"> 
 
 * [Research Paper](https://arxiv.org/abs/2211.12483)
